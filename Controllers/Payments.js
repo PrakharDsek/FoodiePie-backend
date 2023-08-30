@@ -45,7 +45,7 @@ export const verifyPayment = async (req, res) => {
     console.log(`An error occurred at verifyPayment: ${error.message}`);
     res.status(500).json({
       success: false,
-      message: "Something went wrong",
+      message: "Something went out",
     });
   }
 };
