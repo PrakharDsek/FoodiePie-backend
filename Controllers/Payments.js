@@ -1,6 +1,6 @@
 import { Order } from "../Models/Orders.js";
 import crypto from "crypto";
-import { Payment } from "../models/Payments.js";
+import { Payment } from "../Models/Payments.js";
 
 export const verifyPayment = async (req, res) => {
   try {
