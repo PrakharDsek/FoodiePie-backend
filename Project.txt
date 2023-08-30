@@ -1,0 +1,122 @@
+FOODIEPIE BACKEND   
+
+1.Models 
+
+    - users
+
+    - food items
+
+    - coupons 
+
+    - orders
+
+    - payments 
+
+
+2. Routes
+
+
+    - users
+
+    - food items
+
+    - coupons 
+
+    - orders
+
+    - payments 
+
+
+3.Controllers
+
+    - Get users
+
+        :- By id
+
+        :- By mail
+
+    - Create users
+
+    - Get food items 
+
+        :- By category
+
+        :- By name (search)
+
+        :- By rating
+
+    - Create food items
+
+    - Get sellers (Admin pannel)
+
+        :- By id
+
+        :- By Name
+
+    - Create sellers
+
+    - Get coupons & check  
+                    
+        :- Check valid
+
+    - Create coupons (admin pannel)
+
+    - Get orders 
+
+        :- By id
+
+        :- By user id
+
+    - Create orders
+
+    - Get All payments history (admin pannel )
+
+    - Create payments 
+
+4. Packages
+
+    -bcrypt
+
+    -cookie-parser
+
+    -cors
+
+    -dotenv
+
+    -express
+
+    -jsonwebtoken
+
+    -mongoose
+
+    -multer
+
+    -razorpay
+
+    -datauri-parser
+
+5. Databases and cloud
+
+    -Database 
+
+        :-Mongo Db 
+    
+    - Cloud 
+
+        :- Cloudinary
+        
+6. Payments
+
+    - Razorpay
+
+
+# Features
+
+    - Non-expiery coupons 
+
+
+* Strict camelCases used
+* Mentionabe code 
+* Well structured 
+* Easy to read and understand 
+* try to reuse as components 
